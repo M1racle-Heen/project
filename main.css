@@ -473,9 +473,95 @@ body{
     background:#000;
     text-align: center;
 }
+.footer .tet{
+	text-transform: uppercase;
+color: #fff;
+font-size: 24px;
+margin: 30px 20px;
+cursor: pointer;
+}
 .footer .text{
 text-transform: uppercase;
 color: #fff;
 font-size: 24px;
 margin-top: 20px;
+}
+
+.popup{
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.6);
+	z-index: 2;
+	opacity: 0;
+}
+.popup-content{
+	background-color:white;
+	height: 600px;
+	width: 600px;
+	position: relative;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+input{
+	display: block;
+	margin: 30px auto;
+	width: 50%;
+	padding: 8px;
+}
+.icn{
+	margin: auto;
+  width: 50%;
+  border: 3px solid orange;
+  padding: 10px;
+}
+.empty{
+	margin: 10px auto;
+  width: 50%;
+  border: 0.000001px solid orange;
+  
+}
+.closed{
+	position: absolute;
+	top:-10px;
+	right: -10px;
+	border-radius: 50%;
+	border:1px solid black; 
+	cursor: pointer;
+}
+.popup button{
+	display: :inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px 20px;
+	border-radius: 200px;
+	font-weight: bold;
+	background: rgb(10,10,10);
+	color:orange;
+	cursor: pointer;
+	border:2px solid #000;
+}
+
+.user_profile{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	margin: 0;
+	background-color:rgb(0,0,0,0.6); 
+	border-radius: 5px;
+	z-index: 1;
+	display: none;
+}
+#user_name{
+	margin: 0;
+	padding: 10px;
+	display: inline;
+	font-size: 25px;
+	color: white;
 }
